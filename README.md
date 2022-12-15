@@ -7,7 +7,7 @@
 
 # Continuous Integration
 
-_Create workflows that enable you to use Continuous Integration (CI) for your projects._
+*Create workflows that enable you to use Continuous Integration (CI) for your projects.*
 
 <!--
   <<< Author notes: Start of the course >>>
@@ -51,15 +51,15 @@ endstep0-->
 <details id=1 open>
 <summary><h2>Step 1: Add a test workflow</h2></summary>
 
-_Welcome to "GitHub Actions: Continuous Integration"! :wave:_
+*Welcome to "GitHub Actions: Continuous Integration"! :wave:*
 
-**What is _continuous integration_?**: [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) can help you stick to your team’s quality standards by running tests and reporting the results on GitHub. CI tools run builds and tests, triggered by commits. The results post back to GitHub in the pull request. The goal is fewer issues in `main` and faster feedback as you work.
+**What is *continuous integration*?**: [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) can help you stick to your team’s quality standards by running tests and reporting the results on GitHub. CI tools run builds and tests, triggered by commits. The results post back to GitHub in the pull request. The goal is fewer issues in `main` and faster feedback as you work.
 
 ![An illustration split in two. On the left: illustration of how GitHub Actions terms are encapsulated. At the highest level: workflows and event triggers. Inside of workflows: jobs and definition of the build environment. Inside jobs: steps. Inside steps: a call to an action. On the right: the sequence: workflows, job, step, action.](https://user-images.githubusercontent.com/6351798/88589835-f5ce0900-d016-11ea-8c8a-0e7d7907c713.png)
 
 - **Workflow**: A workflow is a unit of automation from start to finish, including the definition of what triggers the automation, what environment or other aspects should be taken account during the automation, and what should happen as a result of the trigger.
 - **Job**: A job is a section of the workflow, and is made up of one or more steps. In this section of our workflow, the template defines the steps that make up the `build` job.
-- **Step**: A step represents one _effect_ of the automation. A step could be defined as a GitHub Action, or another unit, like printing something to the console.
+- **Step**: A step represents one *effect* of the automation. A step could be defined as a GitHub Action, or another unit, like printing something to the console.
 - **Action**: An action is a piece of automation written in a way that is compatible with workflows. Actions can be written by GitHub, by the open source community, or you can write them yourself!
 
 To learn more, check out "[Workflow syntax for GitHub Actions](https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions)" in the GitHub Docs.
@@ -98,7 +98,7 @@ First, let's add a workflow to lint our Markdown files in this repository.
 <details id=2>
 <summary><h2>Step 2: Fix the test</h2></summary>
 
-_Great job adding the templated workflow! :tada:_
+*Great job adding the templated workflow! :tada:*
 
 Adding that file to this branch is enough for GitHub Actions to begin running CI on your repository.
 
@@ -142,7 +142,7 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
 <details id=3>
 <summary><h2>Step 3: Upload test reports</h2></summary>
 
-_The workflow has finished running! :sparkles:_
+*The workflow has finished running! :sparkles:*
 
 So what do we do when we need the work product of one job in another? We can use the built-in [artifact storage](https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts) to save artifacts created from one job to be used in another job within the same workflow.
 
@@ -214,7 +214,7 @@ Protected branches ensure that collaborators on your repository cannot make irre
 <details id=5>
 <summary><h2>Step 5: Merge your pull request</h2></summary>
 
-_Almost there! :heart:_
+*Almost there! :heart:*
 
 You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) your pull request!
 
@@ -236,7 +236,7 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 <details id=X>
 <summary><h2>Finish</h2></summary>
 
-_Congratulations friend, you've completed this course!_
+*Congratulations friend, you've completed this course!*
 
 <img src=https://octodex.github.com/images/Fintechtocat.png alt=celebrate width=300 align=right>
 
